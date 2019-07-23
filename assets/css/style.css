@@ -1,3 +1,62 @@
 body{
-	background-color: lightyellow;
+	background-image: url("../images/bg.png");
+	font-family: 'Ubuntu', sans-serif;
+}
+.container1{
+	width: 100%;
+	height: 100%;
+}
+#color{
+	text-align: center;
+	display: inline-block;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 60%;
+    background-color: lightyellow;
+}
+h1,#start,#counter, #try{
+	font-size: 50px;
+	color: #e45560;
+}
+
+#start, #try{
+	margin-top: 50px;
+	width:200px;
+	height: 50px;
+	background-color:lightyellow;
+	border: #e45560 solid 4px;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+#form,#counter,#statistic,#try{
+	display: none;
+
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+#finalNums{
+	width: 20%;
+	margin-left: 40%;
+	text-align: left;
+
 }

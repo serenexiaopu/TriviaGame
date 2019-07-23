@@ -4,8 +4,99 @@
 	<meta charset="utf-8">
 	<title> Trivia Game </title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+   <div class="container1">
+   	<div id="color">
+   	
+   	<h1>Trivia Game</h1>
+   <button id="start">Start</button>
+  <div id="counter"></div>
+
+ <div id="form">
+ <h2>1. What is the capital city of Peru?</h2>
+<label class="container"> <input type="radio" checked="checked" name="radio"> A. Lima.
+ 
+  <span class="checkmark"></span>
+</label>
+<label class="container"><input type="radio" name="radio">B. San Francisco.
+  
+  <span class="checkmark"></span>
+</label>
+
+<label class="container"><input type="radio" name="radio"> C. San Bruno.
+  
+  <span class="checkmark"></span>
+</label>
+
+<h2>2. What is the third sign of the Zodiac? </h2>
+<label class="container"> <input type="radio" checked="checked" name="radio"> A. Cancer.
+ 
+<span class="checkmark"></span>
+</label>
+<label class="container"><input type="radio" name="radio">B. Gemini.
+  
+  <span class="checkmark"></span>
+</label>
+
+<label class="container"><input type="radio" name="radio"> C. Aries.
+  
+  <span class="checkmark"></span>
+</label>
+
+
+<h2>3. What is the largest two digit prime number? </h2>
+<label class="container"> <input type="radio" checked="checked" name="radio"> A.92
+ 
+<span class="checkmark"></span>
+</label>
+<label class="container"><input type="radio" name="radio">B. 99
+  
+  <span class="checkmark"></span>
+</label>
+
+<label class="container"><input type="radio" name="radio"> C. 97
+  
+  <span class="checkmark"></span>
+</label>
+
+
+<h2>4.How many track events are there in a decathlon? </h2>
+<label class="container"> <input type="radio" checked="checked" name="radio"> A.2
+ 
+<span class="checkmark"></span>
+</label>
+<label class="container"><input type="radio" name="radio">B. 5
+  
+  <span class="checkmark"></span>
+</label>
+
+<label class="container"><input type="radio" name="radio"> C. 4
+  
+  <span class="checkmark"></span>
+</label>
+
+   </div>
+
+
+  <div id="statistic">
+  	<h2>Your answers</h2>
+  	<div id="finalNums">
+  	<li>Correct: <span id="correct"></span></li>
+  	<li>Wrong: <span id="wrong"></span></li>
+  	<li>Unanswered: <span id="unanswered"></span></li>
+  	</div>
+
+  </div>
+
+  <button id="try">Try again</button>
+
+
+   </div>
+   </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/javascript/app.js">
