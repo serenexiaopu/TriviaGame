@@ -35,7 +35,7 @@ h1,#start,#counter, #try{
 
 }
 
-#form,#counter,#statistic,#try{
+#form,#counter,#statistic,#try,input{
 	display: none;
 
 }
@@ -45,12 +45,8 @@ h1,#start,#counter, #try{
   position: relative;
   padding-left: 35px;
   margin-bottom: 12px;
-  cursor: pointer;
   font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+ 
 
 }
 
